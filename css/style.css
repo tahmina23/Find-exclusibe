@@ -428,7 +428,7 @@ section{
 
 .featured .featured-slider .box .content .price span{
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:red;
     text-decoration: line-through;
 }
 
