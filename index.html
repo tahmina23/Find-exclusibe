@@ -14,11 +14,16 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+
+    
 
 </head>
 <body>
@@ -29,7 +34,7 @@
 
     <div class="header-1">
 
-        <a href="#" class="logo"> <i class="fas fa-book"></i> bookly </a>
+        <a href="#" class="image"><img src="https://cs.sportsdirect.com/images/sportsdirect-2021.svg"></a>
 
         <form action="" class="search-form">
             <input type="search" name="" placeholder="search here..." id="search-box">
@@ -54,8 +59,11 @@
             <a href="#blogs">blogs</a>
         </nav>
     </div>
+  
 
 </header>
+
+
 
 <!-- header section ends -->
 
@@ -244,7 +252,19 @@
 
 </section>
 
-<!-- featured section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <section class="featured" id="featured">
 
@@ -363,65 +383,87 @@
 
 </section>
 
+<!-- featured section ends -->
+
+
+
+
 <!-- newsletter section starts -->
 
-<section class="newsletter">
-    <div class="main">
-        <img src="https://www.sportsdirect.com/images/marketing/golf-starts-here-840x472.jpg"><div class="all-text">
-            <h1>Sports Starts Here: Golf</h1>
-            <p>Get everything you need to have a summer playing out on the green in style, with golf clothing, footwear and equipment from all your favourite brands.</p>
-            <div class="btn">
-                <button type="button">shop the collection</button>
+
+     <!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="https://cs.sportsdirect.com/images/marketing/cs/golf-starts-here-840x472.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Sport začíná zde: Golf</h3>
+      
+        
+        <p>  Pořiďte si vše, co potřebujete, k letní stylové hře na greenu, s<br> golfovým  oblečením, obuví a vybavením od všech vašich oblíbených<br> značek.</p>
+        <a href="#" class="btn btn-primary">Nakupujte kolekci</a>
+    </div>
+
+</section>
+
+<!-- about section ends --> 
+
+
+
+
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>our blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/image12.jpg" alt="">
+                </div>
+               
             </div>
 
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/image13.jpg" alt="">
+                </div>
+               
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/image14.jpg" alt="">
+                </div>
+               
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/image15.jpg" alt="">
+                </div>
+               
+            </div>
+            
+
+            
+
         </div>
+
     </div>
+
 </section>
 
 
 
 <!-- newsletter section ends -->
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="content"> <a href="#">
-                    <div class="content-overlay"></div> <img class="content-image" src="image/image12.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title"></h3>
-                        <p class="content-text"> </p>
-                    </div>
-                </a> </div>
-        </div>
-        <div class="col-md-4">
-            <div class="content"> <a href="#">
-                    <div class="content-overlay"></div> <img class="content-image" src="image/image13.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title"></h3>
-                        <p class="content-text"> </p>
-                    </div>
-                </a> </div>
-        </div>
-        <div class="col-md-4">
-            <div class="content"> <a href="#">
-                    <div class="content-overlay"></div> <img class="content-image" src="image/image14.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title"></h3>
-                        <p class="content-text"> </p>
-                    </div>
-                </a> </div>
-        </div>
-        <div class="col-md-4">
-            <div class="content"> <a href="#">
-                    <div class="content-overlay"></div> <img class="content-image" src="image/image15.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title"></h3>
-                        <p class="content-text"></p>
-                    </div>
-                </a> </div>
-        </div>
-    </div>
-</div>
 
 <!-- arrivals section starts  -->
 
@@ -795,7 +837,124 @@
 <!-- blogs section ends -->
 
 
+ <!-- New Arrivals -->
+ <section class="section new-arrival">
+    <div class="title">
+      <h1>NEW ARRIVALS</h1>
+      <p>All the latest picked from designer of our store</p>
+    </div>
 
+    <div class="product-center">
+      <div class="product-item">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img src="./images/product-1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="productDetails.html">Quis Nostrud Exercitation</a>
+          <h4>$700</h4>
+        </div>
+        
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/product-3.jpg" alt="" />
+          </a>
+          
+        </div>
+
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Sonata White Men’s Shirt</a>
+          <h4>$800</h4>
+        </div>
+        
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/product-2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Concepts Solid Pink Men’s Polo</a>
+          <h4>$150</h4>
+        </div>
+        
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/product-4.jpg" alt="" />
+          </a>
+          
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Edor do eiusmod tempor</a>
+          <h4>$900</h4>
+        </div>
+        
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/product-5.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Edor do eiusmod tempor</a>
+          <h4>$100</h4>
+        </div>
+       
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/product-6.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Edor do eiusmod tempor</a>
+          <h4>$500</h4>
+        </div>
+        
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/product-7.jpg" alt="" />
+          </a>
+          
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Edor do eiusmod tempor</a>
+          <h4>$200</h4>
+        </div>
+        
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/product-2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Edor do eiusmod tempor</a>
+          <h4>$560</h4>
+        </div>
+        
+      </div>
+    </div>
+  </section>
 
 
 
@@ -835,9 +994,9 @@
 
         <div class="box">
             <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#"> <i class="fas fa-phone"></i>  </a>
+            <a href="#"> <i class="fas fa-phone"></i>  </a>
+            <a href="#"> <i class="fas fa-envelope"></i> </a>
             <img src="image/worldmap.png" class="map" alt="">
         </div>
         
@@ -851,7 +1010,7 @@
         <a href="#" class="fab fa-pinterest"></a>
     </div>
 
-    <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
+    <div class="credit">  <span></span> | all rights reserved! </div>
 
 </section>
 
