@@ -75,7 +75,7 @@ section{
     padding:.9rem 3rem;
     border-radius: .5rem;
     color:#fff;
-    background:var(--green);
+    background:var(--black);
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
@@ -87,11 +87,11 @@ section{
 
 .header .header-1{
     background:black;
-    padding: auto;
+    padding:1.5rem 9%;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -2%;
 }
 
 .header .header-1 .logo{
@@ -99,13 +99,15 @@ section{
     font-weight: bolder;
     color:var(--black);
 }
-
 .header .header-1 img{
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 30%;
+    max-width: 30%;
+    margin-top: -8%;
 }
 
-
+.header .header-1 .logo i{
+    color:var(--gray);
+}
 
 .header .header-1 .search-form{
     width:50rem;
@@ -124,7 +126,7 @@ section{
     height:100%;
     width:100%;
     text-transform: none;
-    color:var(--blue);
+    color:var(--black);
 }
 
 .header .header-1 .search-form label{
@@ -142,14 +144,13 @@ section{
 .header .header-1 .icons a{
     font-size: 2.5rem;
     margin-left: 1.5rem;
-    color:white;
+    color:var(--black);
     cursor: pointer;
 }
 
-
 .header .header-1 .icons div:hover,
 .header .header-1 .icons a:hover{
-    color:white;
+    color:var(--white);
 }
 
 #search-btn{
@@ -157,7 +158,8 @@ section{
 }
 
 .header .header-2{
-    background:gray;
+    background:var(--black);
+    margin-top: -1%;
 }
 
 .header .header-2 .navbar{
@@ -167,13 +169,12 @@ section{
 .header .header-2 .navbar a{
     color:#fff;
     display: inline-block;
-    
+    padding:1.2rem;
     font-size: 1.7rem;
-    
 }
 
 .header .header-2 .navbar a:hover{
-    
+    background:var(--dark-color);
 }
 
 .header .header-2.active{
@@ -182,33 +183,74 @@ section{
     z-index: 1000;
 
 }
-.header .header-3{
-    background:gray;
-    margin: 2px;
+
+
+.home{
+  
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
-.header .header-3 .navbar{
+.home .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.home .row .content{
+    flex:1 1 42rem;
+}
+
+.home .row .books-slider{
+    flex:1 1 42rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
-.header .header-3 .navbar a{
-    color:#fff;
-    display: inline-block;
-    
-    font-size: 1.7rem;
-    
+.home .row .content a img{
+    height: 100%;
+    width: 100%;
 }
 
-.header .header-3 .navbar a:hover{
-    
+.row .content img{
+   width: 100%;
+   display: block;
+   max-width: 100%;
+   height: auto;
+  background-size: cover;
 }
 
-.header .header-3.active{
-    position:fixed;
-    top:0; left:0; right:0;
-    z-index: 1000;
-
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
 }
+
+.home .row .books-slider .stand{
+    width:100%;
+    margin-top: -2rem;
+}
+
+.home .row .content h3{
+    color:var(--black);
+    font-size: 4.5rem;
+}
+
+.home .row .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -320,54 +362,7 @@ section{
     cursor: pointer;
 }
 
-.home{
-    background: url() no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
-.home .row{
-    display:flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
-
-.home .row .content{
-    flex:1 1 42rem;
-}
-
-.home .row{
-    flex:1 1 42rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.home .row a img{
-    
-    width: 100%;
-}
-
-.home .row a:hover img{
-    transform: scale(.9);
-}
-
-.home .row.stand{
-    width:100%;
-    margin-top: -2rem;
-}
-
-.home .row .content h3{
-    color:var(--black);
-    font-size: 4.5rem;
-}
-
-.home .row .content p{
-    color:var(--light-color);
-    font-size: 1.4rem;
-    line-height: 2;
-    padding:1rem 0;
-}
 
 .icons-container{
     display: grid;
@@ -1331,8 +1326,10 @@ a{
 
 /*menu*/
 .menu-bar{
-    background-color: rgba(0,0,0,0.6);
+    background-color:#808080;
     text-align: center;
+    margin-top: -1%;
+    
    
 }
 .menu-bar ul{
@@ -1347,7 +1344,7 @@ a{
     font-size: 18px;
 }
 .menu-bar ul li a{
-    color: black;
+    color: rgb(12, 12, 12);
     text-decoration: none;
 }
 .menu-bar ul li :hover{
@@ -1409,6 +1406,7 @@ a{
 
 .footer-menu{
     margin-bottom: 20px;
+    margin-top: 2%;
     
 }
 .footer-menu ul{
