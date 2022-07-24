@@ -91,7 +91,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: -2%;
+    
 }
 
 .header .header-1 .logo{
@@ -159,7 +159,7 @@ section{
 
 .header .header-2{
     background:var(--black);
-    margin-top: -1%;
+ 
 }
 
 .header .header-2 .navbar{
@@ -168,8 +168,6 @@ section{
 
 .header .header-2 .navbar a{
     color:#fff;
-    display: inline-block;
-    padding:1.2rem;
     font-size: 1.7rem;
 }
 
@@ -180,7 +178,7 @@ section{
 .header .header-2.active{
     position:fixed;
     top:0; left:0; right:0;
-    z-index: 1000;
+  
 
 }
 
@@ -197,7 +195,7 @@ section{
     display:flex;
     align-items: center;
     flex-wrap: wrap;
-    gap:1.5rem;
+   
 }
 
 .home .row .content{
@@ -281,7 +279,7 @@ section{
     background:rgba(255,255,255,.9);
     position:fixed;
     top:0; right:-105%;
-    z-index: 10000;
+    
     height:100%;
     width:100%;
 }
@@ -1271,24 +1269,29 @@ a{
     margin-bottom: 20px;
     margin-top: 2%;
     
+    
 }
 .footer-menu ul{
     display: flex;
+    
 }
 .footer-menu ul li{
     padding-right: 10px;
     display: block;
+    
 }
 .footer-menu ul li a{
     color: black;
     border: 1.5px solid gray;
     padding: 10px 15px;
+  
     
     text-decoration: none;
     font-size: 15px;
 }
 .footer-menu ul li a:hover{
     color: blue;
+    
 }
 
 
@@ -1298,19 +1301,16 @@ a{
 
 
 .client-wrap{
-    width: 90%;
-    height: auto;
-    text-align: center;
+    display: flex;
+
+ 
 }
-.client-wrap h3{
-    font-size: 60px;
-    color: #555;
-}
+
 .client-wrap hr{
-    width: 15%;
+    width: 20%;
     height: 5px;
     border: none;
-    background: #26ccca;
+    
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1339,26 +1339,12 @@ a{
 
 .client-in ul li img{
    
-    width: 150%;
+    width: 100%;
     height: 100%;
-}
-.client-in ul li img:nth-child(1){
-   transform: translateY(0);
-   transition: .5s;
-}
-.client-in ul li img:nth-child(2){
-   transform: translateY(0);
-   transition: .5s;
+    
 }
 
-.client-in ul li:hover img:nth-child(1){
-   transform: translateY(-100%);
-   transition: .5s;
-}
-.client-in ul li:hover img:nth-child(2){
-   transform: translateY(-100%);
-   transition: .5s;
-}
+
 
 
 
@@ -1388,13 +1374,11 @@ a{
 
 /* header */
 .wrap{
-	display: block;
+
 	width: 100%;
-	position: relative;
-	z-index: 99;
-	padding:15px;
+	padding:0px;
     background-color: #000;
-    margin-top: -2%;
+
 }
 .wrap .item-left{
 	flex:0 0 17%;
@@ -1439,7 +1423,7 @@ a{
 	z-index: 500;
 	background-color:#ffffff;
 	box-shadow: -2px 2px 70px -25px rgba(0,0,0,0.3); 
-	padding: 20px 30px;
+	padding: 0px 0px;
 	transition: all 0.5s ease;
 	margin-top:25px;
 	opacity:0;
@@ -1647,7 +1631,8 @@ a{
 		font-size: 25px;
 	}
 	.wrap .menu .menu-main{
-		height: 100%;
+		height: 10%;
+
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
@@ -1750,7 +1735,7 @@ a{
 
 
  footer{
-
+background-color: #000;
  }
 
  .footer__content{
@@ -1768,12 +1753,13 @@ justify-content: space-around;
 width: 40rem;
  }
 
- .footer__content .text-section .site-details h3{
-    font-size: 3.4rem;
-    font-weight: 700;
+ .footer__content .text-section .site-details{
+    font-size: 1.5rem;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     line-height: 1.5;
+    color: #fff;
  }
 
  .footer__content .text-section .site-details p{
@@ -1789,6 +1775,10 @@ width: 40rem;
  .footer__content .text-section .location li{
     font-size: 1.5rem;
     font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    color: white;
+    line-height: 1.5;
  }
 
  .footer__content .text-section .site--link{
@@ -1797,22 +1787,29 @@ width: 40rem;
  }
 
  .footer__content .text-section .site--link h4{
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     line-height: 2;
+    color: white;
  }
 
  .footer__content .text-section .site--link li a:link,
  .footer__content .text-section .site--link li a:visited{
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 400;
     text-decoration: none;
     letter-spacing: 1.2px;
-    color: #555;
+    color: gray;
     line-height: 1.5;
     transition: all .4s;
+ }
+
+ .footer__content .text-section .site--link li a i{
+    color: white;
+    
+    
  }
 
  .footer__content .text-section .site--link li a:hover{
@@ -1831,8 +1828,9 @@ width: 40rem;
     line-height: 2;
  }
  .footer__content .text-section .site--contact p{
-    font-size: 1.4rem;
+    font-size: 3rem;
     font-weight: 400;
+    color: white;
  }
 
  .footer__content .text-section .site--contact .contact{
@@ -1841,12 +1839,15 @@ width: 40rem;
 
  .footer__content .text-section .site--contact .contact input[type="email"] {
 margin: 1rem 0;
-padding: 1rem 2rem;
+padding: 2rem 4rem;
 border: 2px solid black;
-border-radius: .8rem;
-margin-right: 1.2rem;
+border-radius: .30rem;
+margin-right: 5rem;
 outline: none;
 color: #fff;
+width: 100%;
+vertical-align: middle;
+
  }
 
  .footer__content .text-section .site--contact .contact .btn{
@@ -1855,18 +1856,34 @@ color: #fff;
     padding: 1rem 2rem;
     text-transform: uppercase;
     background: transparent;
-    border: 2px solid blue;
+    border: 2px black;
     border-radius: 2rem;
     cursor: pointer;
     transition: all .4s;
     margin-top: -1%;
+    background-color: white;
  }
 
  .footer__content .text-section .site--contact .contact .btn:hover{
-background: blue;
+
 color: #fff;
  }
 
  .footer__content .site--deal{
     margin-top: 24rem;
  }
+
+
+ .footer__content .site--deal .card--system{
+    text-align: right;
+ }
+
+
+
+
+
+
+
+
+
+
