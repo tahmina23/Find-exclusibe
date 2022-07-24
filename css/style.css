@@ -106,7 +106,7 @@ section{
 }
 
 .header .header-1 .logo i{
-    color:var(--gray);
+    color:var(--black);
 }
 
 .header .header-1 .search-form{
@@ -158,7 +158,7 @@ section{
 }
 
 .header .header-2{
-    background:var(--black);
+    background:var(--gray);
  
 }
 
@@ -167,8 +167,9 @@ section{
 }
 
 .header .header-2 .navbar a{
-    color:#fff;
+    color:black;
     font-size: 1.7rem;
+    text-align: center;
 }
 
 .header .header-2 .navbar a:hover{
@@ -1736,6 +1737,8 @@ a{
 
  footer{
 background-color: #000;
+margin-top: 6%;
+
  }
 
  .footer__content{
@@ -1876,8 +1879,35 @@ color: #fff;
 
  .footer__content .site--deal .card--system{
     text-align: right;
+    margin-top: 2%;
  }
 
+
+.line{
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+
+.footer-bottom{
+    
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom a{
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.first-box{
+    margin-bottom: 20px;
+    margin-top: -4%;
+}
 
 
 
