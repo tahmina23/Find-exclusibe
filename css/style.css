@@ -110,7 +110,7 @@ section{
 }
 
 .header .header-1 .search-form{
-    width:50rem;
+    width:40rem;
     height:5rem;
     border:var(--border);
     overflow: hidden;
@@ -124,7 +124,7 @@ section{
     font-size: 1.6rem;
     padding:0 1.2rem;
     height:100%;
-    width:100%;
+    width:1000%;
     text-transform: none;
     color:var(--black);
 }
@@ -182,7 +182,7 @@ section{
 }
 
 .header .header-2 .navbar a:hover{
-    background:var(--dark-color);
+    background:var(--);
    ;
 }
 
@@ -231,9 +231,9 @@ section{
 
 
 .button{
-    margin-top: -6%;
+    
     bottom: 40px;
-    width: 100%;
+    
     justify-content: center;
     
     left: 0;
@@ -245,14 +245,15 @@ section{
 }
 
 .button .homebutton a{
-    color: black;
+    color: white;
     border: 1.5px solid white;
     padding: 10px 15px;
-   margin:2px;
+   margin:4px;
     font-size: 15px;
-    background-color: white;
+    background-color: black;
     letter-spacing: 2px;
     font-size: 20px;
+
     
 }
 
@@ -472,16 +473,9 @@ section{
     width: 100%;
 }
 
-.deal .content h3{
-    color:var(--green);
-    font-size: 2.5rem;
-    padding-bottom: .5rem;
-}
 
-.deal .content h1{
-    color:var(--black);
-    font-size: 4rem;
-}
+
+
 
 .deal .content p{
     padding:1rem 0;
@@ -508,7 +502,7 @@ section{
 
 .container .btn {
     position: absolute;
-    top: 455%;  
+    top: 470%;  
     left: 53%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1063,7 +1057,7 @@ a{
 	display: inline-block;
 	padding: 10px 0;
 	font-size: 15px;
-	color: #555555;
+	color: white;
 	transition: color 0.3s ease;
 	text-decoration: none;
 	text-transform: capitalize;
@@ -1080,7 +1074,7 @@ a{
 	padding:10px 0;
 	display: inline-block;
 	font-size: 15px;
-	color:#555555;
+	color:white;
 	transition: color 0.3s ease;
 }
 .header .menu > ul > li .sub-menu.mega-menu{ 
@@ -1119,7 +1113,7 @@ a{
 .header .menu > ul > li .sub-menu > ul > li > a:hover,
 .header .item-right a:hover,
 .header .menu > ul > li:hover > a{
-	color:#ea4636;
+	color:#121312;
 }
 /* banner section */
 .banner-section{
@@ -1191,9 +1185,22 @@ a{
     font-size: 15px;
 }
 .footer-menu ul li a:hover{
-    color: blue;
+    color: black;
     
 }
+
+.footer-menu p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins';
+    justify-content: center;
+    color: gray;
+    
+ 
+}
+
+
+
 
 
 
