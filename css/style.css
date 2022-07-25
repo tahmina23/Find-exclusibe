@@ -158,26 +158,36 @@ section{
 }
 
 .header .header-2{
-    background:var(--gray);
+    background:var(--red);
+    
+    
  
 }
 
 .header .header-2 .navbar{
+   
+    width: 35%;
     text-align: center;
+    align-items: center;
+   
+
 }
 
 .header .header-2 .navbar a{
     color:black;
     font-size: 1.7rem;
     text-align: center;
+   
+    
 }
 
 .header .header-2 .navbar a:hover{
     background:var(--dark-color);
+   ;
 }
 
 .header .header-2.active{
-    position:fixed;
+    
     top:0; left:0; right:0;
   
 
@@ -190,6 +200,7 @@ section{
     background-position: center;
     height: 100%;
     width: 100%;
+    
 }
 
 .home .row{
@@ -203,163 +214,72 @@ section{
     flex:1 1 42rem;
 }
 
-.home .row .books-slider{
-    flex:1 1 42rem;
-    text-align: center;
-    margin-top: 2rem;
-}
 
-.home .row .content a img{
-    height: 100%;
-    width: 100%;
-}
+
+
 
 .row .content img{
-   width: 100%;
-   display: block;
-   max-width: 100%;
-   height: auto;
-  background-size: cover;
+  min-width: 100px;
+  width: 100%;
+  margin-top: -3.1%;
+ 
+   
 }
-
-.home .row .books-slider a:hover img{
-    transform: scale(.9);
-}
-
-.home .row .books-slider .stand{
-    width:100%;
-    margin-top: -2rem;
-}
-
-.home .row .content h3{
-    color:var(--black);
-    font-size: 4.5rem;
-}
-
-.home .row .content p{
-    color:var(--light-color);
-    font-size: 1.4rem;
-    line-height: 2;
-    padding:1rem 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.bottom-navbar{
+.row .content a .btn{
     text-align: center;
-    background:var(--green);
-    position: fixed;
-    bottom:0; left:0; right:0;
-    z-index: 1000;
-    display: none;
 }
 
-.bottom-navbar a{
-    font-size: 2.5rem;
-    padding:2rem;
-    color:#fff;
-}
 
-.bottom-navbar a:hover{
-    background:var(--dark-color);
-}
-
-.login-form-container{
+.button{
+    margin-top: -6%;
+    bottom: 40px;
+    width: 100%;
+    justify-content: center;
+    
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background:rgba(255,255,255,.9);
-    position:fixed;
-    top:0; right:-105%;
+   
     
-    height:100%;
-    width:100%;
 }
 
-.login-form-container.active{
-    right:0;
+.button .homebutton a{
+    color: black;
+    border: 1.5px solid white;
+    padding: 10px 15px;
+   margin:2px;
+    font-size: 15px;
+    background-color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
 }
 
-.login-form-container form{
-    background:#fff;
-    border:var(--border);
-    width:40rem;
-    padding:2rem;
-    box-shadow: var(--box-shadow);
-    border-radius: .5rem;
-    margin:2rem;
-}
 
-.login-form-container form h3{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color:var(--black);
-    text-align: center;
-}
 
-.login-form-container form span{
-    display: block;
-    font-size: 1.5rem;
-    padding-top: 1rem;
-}
 
-.login-form-container form .box{
-    width: 100%;
-    margin:.7rem 0;
-    font-size: 1.6rem;
-    border:var(--border);
-    border-radius: .5rem;
-    padding:1rem 1.2rem;
-    color:var(--black);
-    text-transform: none;
-}
 
-.login-form-container form .checkbox{
-    display:flex;
-    align-items: center;
-    gap:.5rem;
-    padding:1rem 0;
-}
 
-.login-form-container form .checkbox label{
-    font-size: 1.5rem;
-    color:var(--light-color);
-    cursor: pointer;
-}
 
-.login-form-container form .btn{
-    text-align: center;
-    width:100%;
-    margin:1.5rem 0;
-}
 
-.login-form-container form p{
-    padding-top: .8rem;
-    color:var(--light-color);
-    font-size: 1.5rem;
-}
 
-.login-form-container form p a{
-    color:var(--green);
-    text-decoration: underline;
-}
 
-.login-form-container #close-login-btn{
-    position: absolute;
-    top:1.5rem; right:2.5rem;
-    font-size: 5rem;
-    color:var(--black);
-    cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -444,7 +364,7 @@ section{
 }
 
 .featured .featured-slider .box .icons a:hover{
-    background:var(--green);
+    
     color:#fff;
 }
 
@@ -613,7 +533,7 @@ section{
 
 .container .btn {
     position: absolute;
-    top: 460%;  
+    top: 455%;  
     left: 53%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -626,6 +546,7 @@ section{
     border-radius: 5px;
     text-align: center;
     z-index: 5;
+    display: fixed;
   }
   
 
@@ -830,10 +751,11 @@ width: 100%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #809934;
+    background-color: #5fb6c5;
     margin-top: 50px;
     padding: 0;
     margin: 0;
+   
 }
 
 .about .image{
@@ -863,13 +785,14 @@ width: 100%;
     padding: 0 12px 0 12px;
     color: #fff;
     width: 100%;
-    font-size: 20px;
+    font-size: 45px;
     margin-top: 2%;
+    
     
 }
 
 .about .content p{
-  font-size: 13px;
+  font-size: 22px;
   font-family: "GTAmerica-ExtendedRegular", Arial, Helvitica, sans-serif;
   line-height: 16px;
   letter-spacing: 0.01em;
@@ -1155,6 +1078,8 @@ a{
 	visibility: visible;
 	opacity: 1;
 }
+
+
 }
 .header .menu > ul > li .sub-menu > ul > li{
 	line-height: 1;
@@ -1347,33 +1272,13 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* header */
+.header{
+
+    
+    z-index: 6;
+    
+}
 .wrap{
 
 	width: 100%;
@@ -1633,7 +1538,7 @@ a{
 	}
 	.wrap .menu .menu-main{
 		height: 10%;
-
+width: 100%;
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
@@ -1908,6 +1813,75 @@ color: #fff;
     margin-bottom: 20px;
     margin-top: -4%;
 }
+
+
+
+
+section {
+    padding: 5rem 10%;
+  }
+  
+  .heading-link {
+    text-align: center;
+    background: url(../images/heading-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .heading-link h3 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: #444;
+  }
+  
+  .heading-link p {
+    font-size: 2rem;
+    line-height: 2;
+    color: #777;
+  }
+  
+  .heading-link p a {
+    color: #0eb582;
+  }
+  
+  .heading-link p a:hover {
+    text-decoration: underline;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: #444;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    color: #0eb582;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  
+  .btn:hover {
+    background: #0eb582;
+    color: #fff;
+  }
+
+
+  
+
+ 
+  
+  
+  
+
+
 
 
 
