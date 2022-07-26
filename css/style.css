@@ -166,7 +166,7 @@ section{
 
 .header .header-2 .navbar{
    
-    width: 35%;
+    width: 100%;
     text-align: center;
     align-items: center;
    
@@ -174,7 +174,7 @@ section{
 }
 
 .header .header-2 .navbar a{
-    color:black;
+    color:white;
     font-size: 1.7rem;
     text-align: center;
    
@@ -1113,7 +1113,7 @@ a{
 .header .menu > ul > li .sub-menu > ul > li > a:hover,
 .header .item-right a:hover,
 .header .menu > ul > li:hover > a{
-	color:#121312;
+	color:white;
 }
 /* banner section */
 .banner-section{
