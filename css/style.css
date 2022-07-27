@@ -98,11 +98,13 @@ section{
     font-size: 2.5rem;
     font-weight: bolder;
     color:var(--black);
+    max-width: 50%;
+    object-fit: cover;
 }
 .header .header-1 img{
     max-height: 30%;
-    max-width: 30%;
-    margin-top: -8%;
+    max-width: 50%;
+    margin-top: 9%;
 }
 
 .header .header-1 .logo i{
