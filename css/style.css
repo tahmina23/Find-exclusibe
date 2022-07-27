@@ -1677,6 +1677,7 @@ section {
     flex-wrap: wrap;
     padding: 2rem 0;
     gap: 1rem;
+    width: 100%;
   }
 
   .footerr .links a{
@@ -1688,6 +1689,8 @@ section {
   .footerr .links a:hover{
     background: var(--main-color);
   }
+
+
 
 
   
