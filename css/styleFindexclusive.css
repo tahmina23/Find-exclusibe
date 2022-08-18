@@ -926,10 +926,17 @@ a{
 	margin-top: 0;
 	visibility: visible;
 	opacity: 1;
+  
 }
 
 
+
+
 }
+
+
+
+    
 .header .menu > ul > li .sub-menu > ul > li{
 	line-height: 1;
 }
@@ -989,12 +996,7 @@ a{
 	vertical-align: middle;
 	margin-top: 10px;
 }
-.header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a:hover,
-.header .menu > ul > li .sub-menu > ul > li > a:hover,
-.header .item-right a:hover,
-.header .menu > ul > li:hover > a{
-	color:white;
-}
+
 /* banner section */
 
 .mobile-menu-head,
@@ -1361,7 +1363,14 @@ a{
 width: 100%;
 		overflow-x: hidden;
 		overflow-y: auto;
+        
 	}
+
+    .main-biral li > a:hover {
+        color: #F01616 !important;
+        text-decoration: none;
+    }
+
 	.wrap .menu > ul > li .sub-menu.mega-menu,
 	.wrap .menu > ul > li .sub-menu{
 		visibility: visible;
@@ -1741,6 +1750,10 @@ display: block;
 background-color: #0eb582;
 padding: 0;
 overflow: hidden;
+}
+
+.carousel-item img{
+    height: 800px;
 }
 
 
