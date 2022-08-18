@@ -1446,25 +1446,6 @@ width: 100%;
 	  opacity:1;	
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-section{
     background:black;
     position:relative;
@@ -1754,6 +1735,10 @@ overflow: hidden;
 
 .carousel-item img{
     height: 800px;
+}
+
+.button-hober .button a{
+background-color: #0eb582;
 }
 
 
