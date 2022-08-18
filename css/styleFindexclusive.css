@@ -928,10 +928,6 @@ a{
 	opacity: 1;
   
 }
-
-
-
-
 }
 
 
@@ -1701,11 +1697,15 @@ section {
   .footerr .links a{
     padding: .7rem 2rem;
     color: black;
-    border: var(--border);
+    border-radius: 3px;
     font-size: 2rem;
   }
   .footerr .links a:hover{
-    background: var(--main-color);
+    border: 1px solid red;
+  }
+  .footerr .links a:hover{
+   
+    text-decoration: none;
   }
 
 
