@@ -115,6 +115,8 @@ section{
     color:var(--black);
 }
 
+
+
 .header .header-1 .search-form{
     width:80rem;
     height:5rem;
@@ -136,15 +138,26 @@ section{
     color:var(--black);
 }
 
-.header .header-1 .search-form label{
+.header .header-1 .search-form button{
     font-size: 2.5rem;
     padding-right: 1.5rem;
     color:var(--black);
     cursor: pointer;
 }
 
-.header .header-1 .search-form label:hover{
+.header .header-1 .search-form button:hover{
+  
+}
+
+.header .header-1 .search-form button{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
     color:var(--black);
+    cursor: pointer;
+}
+
+.header .header-1 .search-form button:hover{
+   
 }
 
 .header .header-1 .icons div,
