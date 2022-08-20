@@ -993,10 +993,16 @@ color: red;
 }
 .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item img{
 	max-width: 100%;
-	width: 100%;
+	width: 120%;
 	vertical-align: middle;
 	margin-top: 10px;
+    height: 150px;
+   
+
 }
+
+
+
 
 /* banner section */
 
