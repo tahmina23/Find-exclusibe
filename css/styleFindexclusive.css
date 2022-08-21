@@ -145,9 +145,7 @@ section{
     cursor: pointer;
 }
 
-.header .header-1 .search-form button:hover{
-  
-}
+
 
 .header .header-1 .search-form button{
     font-size: 2.5rem;
@@ -156,9 +154,7 @@ section{
     cursor: pointer;
 }
 
-.header .header-1 .search-form button:hover{
-   
-}
+
 
 .header .header-1 .icons div,
 .header .header-1 .icons a{
@@ -1549,7 +1545,8 @@ width: 100%;
     margin-bottom:30px;
     }
     .footer-logo img{
-    max-width: 200px;
+    max-width: 130px;
+    
     }
     .footer-text p{
     margin-bottom:14px;
