@@ -109,6 +109,7 @@ section{
     max-height: 30%;
     max-width: 50%;
     margin-top: 9%;
+    margin-left: 60%;
 }
 
 .header .header-1 .logo i{
@@ -1038,35 +1039,8 @@ color: red;
     box-shadow: 0 5px 10px #0005;
     overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .client-wrap{
-    display: flex;
-    
-
- 
+    display: flex; 
 }
 
 .client-wrap hr{
@@ -1111,51 +1085,6 @@ color: red;
 
 
 /* header */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header{
 
     
@@ -1654,10 +1583,13 @@ width: 100%;
     }
     .footer-menu li:hover a{
     color:white;
+    
     }
     .footer-menu li a{
     font-size: 14px;
     color:white;
+    height: 100px;
+    right: 40%;
     }
     
     @media (max-width:1030px){
@@ -1799,11 +1731,18 @@ overflow: hidden;
 }
 
 .carousel-item img{
-    height: 800px;
+    height: 600px;
+   
+    margin-top: 8%;
 }
 
 .button-hober .button a{
 background-color: #0eb582;
+}
+
+
+.carousel-control-prev .carousel-control-prev-icon .span{
+text-align: center;
 }
 
 
