@@ -191,7 +191,7 @@ section{
 }
 
 .header .header-2 .navbar a{
-    color:white;
+    color:black;
     font-size: 1.7rem;
     text-align: center;
    
@@ -199,8 +199,10 @@ section{
 }
 
 .header .header-2 .navbar a:hover{
-    background:var(--);
-   ;
+    background:var(--white);
+    
+ 
+   
 }
 
 .header .header-2.active{
